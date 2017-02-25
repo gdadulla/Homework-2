@@ -13,5 +13,10 @@ public class babylonian {
 		if(error <= aError){
 			return guess;
 		}
+		
+		else{
+			double newGuess = 0.5 * (guess + x / guess);
+			return babylonian(x, newGuess, aError);
+		}
 	}
 }
