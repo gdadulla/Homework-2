@@ -27,5 +27,6 @@ public class babylonian {
 		double x = Double.parseDouble(s.nextLine());
 		int aError = Integer.parseInt(s.nextLine());
 		double guess = x/2;
+		System.out.println(Babylonian(x, guess, aError));
 	}
 }
