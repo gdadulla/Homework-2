@@ -6,5 +6,9 @@ public class babylonian {
 		
 		double error = Math.abs(x - guess * guess);
 		
+		if(x < 0){
+			return 1;
+		}
+		
 	}
 }
