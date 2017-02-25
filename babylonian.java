@@ -7,7 +7,7 @@ public class babylonian {
 	public static double Babylonian(double x, double guess, int aError){
 		
 		double error = Math.abs(x - guess * guess);
-		System.out.println(error);
+		System.out.println(error + ": error");
 		
 		if(x < 0){
 			return 1;
@@ -19,6 +19,7 @@ public class babylonian {
 		
 		else{
 			double newGuess = 0.5 * (guess + x / guess);
+			System.out.println(newGuess + ": newGuess");
 			return Babylonian(x, newGuess, aError);
 		}
 	}
