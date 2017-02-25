@@ -10,5 +10,8 @@ public class babylonian {
 			return 1;
 		}
 		
+		if(error <= aError){
+			return guess;
+		}
 	}
 }
