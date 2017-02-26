@@ -23,7 +23,7 @@ public class babylonian {
 		System.out.println(error + ": error");
 		
 		//base case
-		if(x < 0){
+		if(x <= 0){
 			return 1;
 		}
 		
